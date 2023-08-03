@@ -1,0 +1,151 @@
+.div1 {
+    bottom: 20px;
+    height: 60px;
+    left: 20px;
+    position: fixed;
+    width: 60px;
+}
+
+.d-md-block {
+    display: block !important;
+}
+
+.divrect {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: linear-gradient(90deg, rgba(0, 255, 255, .3), transparent);
+    border-bottom: 1px solid cyan;
+    border-left: 3px solid cyan;
+    height: 30px;
+    left: 0;
+    position: relative;
+    top: 50%;
+    -webkit-transform: skew(60deg);
+    transform: skew(60deg);
+    width: 110px;
+}
+
+.recttext {
+    bottom: 5%;
+    font-size: 16px;
+    left: 50%;
+    position: absolute;
+    text-align: left;
+    width: 110px;
+    color: white;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.our-team .team-outerbox {
+    width: 100%;
+    animation: ourTeam_card__rkU90 .5s ease;
+}
+
+@keyframes ourTeam_card__rkU90 {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.our-team .team-inner-box {
+    width: 80%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: radial-gradient(circle at 50% 0, hsla(0, 0%, 100%, .1) 50%, rgba(0, 0, 0, .757));
+    border: 1px solid rgba(0, 255, 255, .6);
+    border-radius: 10px;
+    box-shadow: inset 0 10px #009e9e, 0 1px 10px rgba(0, 51, 68, .2);
+    margin: 50px auto auto;
+    padding: 0 0.6rem 0.6rem;
+    text-align: center;
+    width: 240px;
+}
+
+.our-team .team-inner-box img {
+    aspect-ratio: 1/1;
+    border: 2px solid rgba(183, 211, 216, .651);
+    border-radius: 50%;
+    margin-bottom: 1px;
+    margin-top: -50px;
+    max-width: 150px;
+    width: 80%;
+}
+
+.our-team .member {
+    color: white;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: 8px;
+    margin-bottom: -8px;
+}
+
+.our-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 40px;
+    width: 75%;
+    margin: 10px auto;
+    margin-top: 60px;
+}
+
+.our-team .social-links {
+    display: none;
+}
+
+.social-links:hover {
+    position: relative;
+    z-index: 1;
+    top: 40px;
+    font-size: 26px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.our-team svg {
+    color: white;
+}
+
+.our-team .image-container {
+    position: relative;
+}
+
+.our-team .image-container img {
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+}
+
+.our-team .overlay {
+    display: none;
+    opacity: 0;
+    transition: display 1s;
+}
+
+.our-team .image-container:hover .overlay {
+    display: block;
+    opacity: 1;
+}
+
+.our-team .social-links-overlay {
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.our-team .social-links-overlay a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.our-team .social-links-overlay a:hover {
+    color: #ff9900;
+}

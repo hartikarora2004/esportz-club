@@ -1,0 +1,101 @@
+.sponsorship{
+    color: white;
+    margin-top: 50px;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.sponsorshipHead{
+    text-align: center;
+}
+
+.sponsorship .moreInfo{
+    color: cyan;
+    margin-bottom: 4px;
+}
+
+.sponsorship a{
+    margin-right: 18px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.sponsorship svg{
+    margin-right: 7px;
+}
+
+.sponsors .sponsorsLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    animation: ourTeam_card__rkU90 .5s ease;
+}
+
+@keyframes ourTeam_card__rkU90 {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.sponsors .Logo{
+    width: 120px;
+    height: 120px;
+}
+
+.sponsors img{
+    width: 100%;
+    border-style: none;
+    border-radius: 1rem;
+}
+
+.sponsors a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: rgba(248,249,250,1);
+    border-radius: 1rem;
+}
+
+.sponsors a:hover{
+    background-color: #0000002e;
+}
+
+.sponsors .textSponsor{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+}
+
+.sponsors{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsors .sponsorsText{
+    color: cyan;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sponsors .below{
+    margin-bottom: 40px;
+}
+
+.sponsors .change{
+    font-style: oblique;
+    font-weight: bold;
+}
