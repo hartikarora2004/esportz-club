@@ -90,22 +90,7 @@
     width: 75%;
     margin: 10px auto;
     margin-top: 60px;
-}
-
-.our-team .social-links {
-    display: none;
-}
-
-.social-links:hover {
-    position: relative;
-    z-index: 1;
-    top: 40px;
-    font-size: 26px;
-    display: flex;
-    margin-top: 0px;
-    justify-content: space-evenly;
-    width: 40%;
-    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .our-team svg {
@@ -118,17 +103,18 @@
 
 .our-team .image-container img {
     width: 100%;
-    height: auto;
+    height: 160px;
     transition: filter 0.3s;
 }
 
 .our-team .overlay {
     display: none;
     opacity: 0;
-    transition: display 1s;
+    animation: ourTeam_card__rkU90 1s ease;
+    margin-right: 40px;
 }
 
-.our-team .image-container:hover .overlay {
+.our-team .team-inner-box:hover .overlay {
     display: block;
     opacity: 1;
 }
