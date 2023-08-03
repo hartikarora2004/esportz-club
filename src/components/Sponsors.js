@@ -2,7 +2,10 @@ import React from 'react';
 import '../css/team.css';
 import '../css/sponsor.css';
 import Footer from './Footer';
-import logoImage from '../images/logo.png';
+import chesslers from '../images/chesslers.png';
+import razespace from '../images/Razespace.png';
+import SCGC from '../images/scgc.webp';
+import VR from '../images/VR.png';
 
 const Sponsors = () => {
   return (
@@ -44,18 +47,23 @@ const Sponsors = () => {
             </div>
             <div className="sponsorsLogo">
               <div className="Logo">
-                <a to="/">
-                  <img src={logoImage} alt="Logo" />
+                <a href="https://razespace.com/" target="_blank">
+                  <img src={razespace} alt="Razespace" />
                 </a>
               </div>
               <div className="Logo">
-                <a to="/">
-                  <img src={logoImage} alt="Logo" />
+                <a href="https://chesslers.com/" target="_blank">
+                  <img src={chesslers} alt="Chesslers" />
                 </a>
               </div>
               <div className="Logo">
-                <a to="/">
-                  <img src={logoImage} alt="Logo" />
+                <a href="https://zaap.bio/Scgc" target="_blank">
+                  <img src={SCGC} alt="SCGC" />
+                </a>
+              </div>
+              <div className="Logo">
+                <a href="https://www.highclassvr.com/" target="_blank">
+                  <img src={VR} alt="High Class VR" />
                 </a>
               </div>
             </div>
@@ -68,8 +76,8 @@ const Sponsors = () => {
             </div>
             <div className="sponsorsLogo">
               <div className="Logo">
-                <a to="/">
-                  <img src={logoImage} alt="Logo" />
+                <a href="https://zaap.bio/Scgc" target="_blank">
+                  <img src={SCGC} alt="SCGC" />
                 </a>
               </div>
             </div>
