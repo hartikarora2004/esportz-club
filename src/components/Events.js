@@ -2,8 +2,8 @@ import React from 'react';
 import '../css/team.css';
 import '../css/events.css';
 import Footer from './Footer';
-import BGMI from '../images/bgmi.png';
-import valo from '../images/valo.jpeg';
+import BGMI from '../images/events/bgmi.png';
+import valo from '../images/events/valo.jpeg';
 
 const Events = () => {
   return (
