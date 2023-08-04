@@ -4,6 +4,9 @@ import '../css/events.css';
 import Footer from './Footer';
 import BGMI from '../images/events/bgmi.png';
 import valo from '../images/events/valo.jpeg';
+import VR from '../images/events/VR.jpeg';
+import Valo_Fest from '../images/events/Valo_Fest.png';
+import CODM from '../images/events/CODM.png';
 
 const Events = () => {
   return (
@@ -17,8 +20,8 @@ const Events = () => {
                 Valorant
               </span>
               <p class="event-description">
-                On July 28th, a thrilling Valorant event took place at 9 PM, featuring three competitive teams and 15 skilled players. Centered around Team Deathmatch, the event intensified the competition. Following a Best of 3 format, "Bot Frag," "DEATH Squad," and "LND Clan" entered the fray. LND Clan swiftly triumphed over DEATH Squad in two consecutive matches. Then, Bot Frag's dominant performance against DEATH Squad secured their spot in the finals. The ultimate showdown saw LND Clan facing Bot Frag. With a narrow 100-99 victory, LND Clan claimed the first match. Bot Frag rebounded in the second match with a 100-88 win. In the final clash, LND Clan's resilience prevailed, securing a 100-95 victory. The tournament's victors, Team LND Clan, showcased exceptional prowess, emerging triumphant after an intense Valorant spectacle.
-                <a class="event-link" href="https://drive.google.com/file/d/1inJzSPbjteGyhO7Zr1CcxMjdvmslB1Rd/view?usp=sharing" target="_blank">
+                On July 28th, an exhilarating Valorant event unfolded at 9 PM, showcasing three competitive teams and 15 skilled players. Focused on Team Deathmatch, the competition surged with intensity. "Bot Frag," "DEATH Squad," and "LND Clan" engaged in a riveting Best of 3 format. LND Clan swiftly conquered DEATH Squad in two matches, while Bot Frag secured their finals slot by outshining DEATH Squad. The grand face-off featured LND Clan against Bot Frag. In a close 100-99 victory, LND Clan seized the initial match. Bot Frag made a strong comeback, winning the second 100-88. However, LND Clan's resilience secured a final 100-95 triumph, emerging as victorious champions of the Valorant tournament.
+                <a class="event-link" href="https://drive.google.com/file/d/1inJzSPbjteGyhO7Zr1CcxMjdvmslB1Rd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Rulebook
                 </a>
               </p>
@@ -32,7 +35,7 @@ const Events = () => {
               </span>
               <p class="event-description">
                 The BGMI online event on July 15, 2023, united 24 teams and 92 players, hosted by IIT Ropar's EsportZ Club and sponsored by Razespace India. It showcased skillful gameplay, team synergy, and strategy in Battlegrounds Mobile India. Participants competed in three matches on iconic maps: Erangel, Vikendi, and Sanhok, testing their adaptability and tactics. The event fostered character customization and celebrated gaming culture, offering enticing rewards for standout players. Beyond intense competition, it emphasized community building, creating a memorable experience that combined competitive spirit with camaraderie.
-                <a class="event-link" href=" https://drive.google.com/drive/folders/1ck2anXDSTCNDpYw3Lvnxy3fq7psMHiRE" target="_blank">
+                <a class="event-link" href=" https://drive.google.com/drive/folders/1ck2anXDSTCNDpYw3Lvnxy3fq7psMHiRE" target="_blank" rel="noopener noreferrer">
                   Rulebook
                 </a>
               </p>
@@ -40,13 +43,13 @@ const Events = () => {
           </div>
           <div class="event-card">
             <div class="event-card-inside">
-              <img class="event-image" src={BGMI} alt="VR Gaming Zone" />
+              <img class="event-image" src={VR} alt="VR Gaming Zone" />
               <span class="event-heading">
                 VR Zone
               </span>
               <p class="event-description">
-                Raw talent meets grace and what follows is a showdown of multitudes of cultural competitions, dance face-offs. Fluxus has a plethora of events from all genres sporting talent from all across central India which are eye-candy for appreciators of culture.
-                <a class="event-link" href="/">
+                In the gaming-focused workshop held at Zeitgeist, participants had the exciting opportunity to delve into the captivating realm of Augmented Reality (AR) and Virtual Reality (VR) gaming. The workshop took place at IIT Ropar from 23rd to 26th March and was sponsored by "HIGH CLASS VR" and hosted by the ESportZ club of IIT Ropar. The workshop aimed to introduce attendees to the immersive and interactive experiences that AR and VR technologies can offer in the world of gaming.
+                <a class="event-link" href="/" target="_blank" rel="noopener noreferrer">
                   View More
                 </a>
               </p>
@@ -54,28 +57,28 @@ const Events = () => {
           </div>
           <div class="event-card">
             <div class="event-card-inside">
-              <img class="event-image" src={BGMI} alt="Valorant Fest" />
+              <img class="event-image" src={Valo_Fest} alt="Valorant Fest" />
               <span class="event-heading">
                 Valo Rumble
               </span>
               <p class="event-description">
                 Raw talent meets grace and what follows is a showdown of multitudes of cultural competitions, dance face-offs. Fluxus has a plethora of events from all genres sporting talent from all across central India which are eye-candy for appreciators of culture.
-                <a class="event-link" href="/">
-                  View More
+                <a class="event-link" href="https://drive.google.com/file/d/13jcme4HTQXgKADZP8AGQVaYb_1BeXsNj/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  Rulebook
                 </a>
               </p>
             </div>
           </div>
           <div class="event-card">
             <div class="event-card-inside">
-              <img class="event-image" src={BGMI} alt="CODM Fest" />
+              <img class="event-image" src={CODM} alt="CODM Fest" />
               <span class="event-heading">
                 CODM
               </span>
               <p class="event-description">
-                Raw talent meets grace and what follows is a showdown of multitudes of cultural competitions, dance face-offs. Fluxus has a plethora of events from all genres sporting talent from all across central India which are eye-candy for appreciators of culture.
-                <a class="event-link" href="/">
-                  View More
+                ESportZ Club buzzed with excitement as it hosted the captivating CODM tournament during Zeitgeist 2023. Over two intense days, more than 30 teams from diverse colleges nationwide fiercely competed for supremacy. Among the formidable 8 teams—THE GODLEVEL, Reapers, Men From Hell, MAVIS 350, OGS, The_Frozen_Ones, HELLSGATE, and Imagine Losing—four advanced to the semi-finals. In a thrilling final clash, The_Frozen_Ones secured the championship in a tight team death match against Imagine Losing, who clinched a well-deserved 2nd place. MAVIS 350 demonstrated their prowess, seizing 3rd by triumphing over Reapers. ESportZ Club commends participants for their sportsmanship and passion, promising more electrifying events that fuel the spirit of esports.
+                <a class="event-link" href="https://drive.google.com/file/d/1uJO1I5BsHzPmsNIFSKiZI-iFgAN8dIF-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  Rulebook
                 </a>
               </p>
             </div>

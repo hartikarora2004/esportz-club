@@ -3,9 +3,30 @@ body{
     overflow-y: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    scrollbar-base-color: aqua;
     scrollbar-color: aqua;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+::-webkit-scrollbar {
+    width: 3px;
+    margin-top:2px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    box-shadow: inset 0 0 5px rgba(0,255,255,.415);
+}
+
+::-webkit-scrollbar-thumb {
+    background: cyan;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0ff;
+}
+
 .background-container {
     background: url('../images/home.webp');
     background-repeat: no-repeat;
