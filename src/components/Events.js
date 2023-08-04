@@ -48,7 +48,7 @@ const Events = () => {
               </span>
               <p class="event-description">
                 In the gaming-focused workshop held at Zeitgeist, participants had the exciting opportunity to delve into the captivating realm of Augmented Reality (AR) and Virtual Reality (VR) gaming. The workshop took place at IIT Ropar from 23rd to 26th March and was sponsored by "HIGH CLASS VR" and hosted by the ESportZ club of IIT Ropar. The workshop aimed to introduce attendees to the immersive and interactive experiences that AR and VR technologies can offer in the world of gaming.
-                <a class="event-link" href="/" target="_blank" rel="noopener noreferrer">
+                <a class="event-link" href="https://www.instagram.com/reel/CqKd64wgaYB/?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
                   View More
                 </a>
               </p>
