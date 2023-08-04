@@ -37,7 +37,7 @@
 }
 
 .our-team .team-outerbox {
-    width: 100%;
+    width: 22%;
     animation: ourTeam_card__rkU90 .5s ease;
 }
 
@@ -84,10 +84,12 @@
 }
 
 .our-team {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 40px;
-    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 80%;
     margin: 10px auto;
     margin-top: 60px;
     margin-bottom: 40px;

@@ -2,11 +2,10 @@ import React from 'react';
 import '../css/team.css';
 import '../css/events.css';
 import Footer from './Footer';
-import BGMI from '../images/events/bgmi.png';
+import BGMI from '../images/events/bgmi.jpeg';
 import valo from '../images/events/valo.jpeg';
 import VR from '../images/events/VR.jpeg';
-import Valo_Fest from '../images/events/Valo_Fest.png';
-import CODM from '../images/events/CODM.png';
+import CODM from '../images/events/CODM.jpeg';
 
 const Events = () => {
   return (
@@ -57,12 +56,12 @@ const Events = () => {
           </div>
           <div class="event-card">
             <div class="event-card-inside">
-              <img class="event-image" src={Valo_Fest} alt="Valorant Fest" />
+              <img class="event-image" src={valo} alt="Valorant Fest" />
               <span class="event-heading">
                 Valo Rumble
               </span>
               <p class="event-description">
-                Raw talent meets grace and what follows is a showdown of multitudes of cultural competitions, dance face-offs. Fluxus has a plethora of events from all genres sporting talent from all across central India which are eye-candy for appreciators of culture.
+                Amid the vibrant Zeitgeist festivities, ESportZ Club orchestrated an intense Valorant tournament featuring 15 fiercely competitive teams. The event ignited strategic battles, leading Team SixT9 to clinch the coveted first place. Team BerserK impressed with a strong 2nd position, while Team Volkeno fought valiantly for third. ESportZ Club applauds all teams for their dedication and virtual battlefield skills. The Valorant tournament injected added excitement into Zeitgeist, showcasing the gaming community's fervor for esports. Anticipate more exhilarating events and gaming spectacles from ESportZ Club, where competition and camaraderie prevail.
                 <a class="event-link" href="https://drive.google.com/file/d/13jcme4HTQXgKADZP8AGQVaYb_1BeXsNj/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Rulebook
                 </a>
