@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     overflow-y: auto;
@@ -28,7 +30,7 @@ body{
 }
 
 .background-container {
-    background: url('../images/home.webp');
+    background: url('../images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

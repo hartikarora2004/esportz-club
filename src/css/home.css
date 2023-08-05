@@ -1,0 +1,52 @@
+.videoBgContainer{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.videoBgContainer video {
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.firstBox{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.firstLeft{
+    width: 55%;
+}
+
+.firstLeftBigText{
+    font-size: 4rem;
+    color: cyan;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.firstLeftSmallText{
+    font-size: 2.2rem;
+}
+
+.firstRight{
+    width: 45%;
+}
+
+.firstRightBigText{
+    text-align: center;
+    font-size: 2rem;
+    color: cyan;
+}
+
+.firstRightSmallText{
+    text-align: justify;
+}

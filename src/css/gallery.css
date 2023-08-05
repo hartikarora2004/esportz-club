@@ -20,6 +20,11 @@
     animation: ourTeam_card__rkU90 1s ease;
 }
 
+.image-cards:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
 @keyframes ourTeam_card__rkU90 {
     0% {
         opacity: 0;

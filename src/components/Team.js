@@ -14,6 +14,7 @@ import Ansaf from '../images/team/ansaf.jpg';
 import Arun from '../images/team/arun.jpg';
 import Vaibhav from '../images/team/vaibhav.jpeg';
 import Rishav from '../images/team/Rishav.jpeg';
+import aryan_junior from '../images/team/aryan.jpg';
 
 const Team = () => {
   return (
@@ -270,6 +271,29 @@ const Team = () => {
                 </div>
               </div>
               <div className="member">Siripurapu. Madhusudhana Rao</div>
+              <p style={{ color: 'white' }}>Coordinator</p>
+            </div>
+          </div>
+          <div className="team-outerbox">
+            <div className="team-inner-box">
+              <div className="image-container">
+                <img src={aryan_junior} alt="" />
+                <div className="overlay">
+                  <div className="social-links-overlay">
+                    <a href="https://instagram.com/its_me_a.r.y.a.n?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon icon={faInstagram} />
+                    </a>
+                    <a href="www.linkedin.com/in/aryan-sagar-755947254" target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <a href="mailto:aryanlucky616@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="member">Aryan Sagar</div>
               <p style={{ color: 'white' }}>Coordinator</p>
             </div>
           </div>
