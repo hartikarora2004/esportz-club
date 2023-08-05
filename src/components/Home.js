@@ -24,6 +24,11 @@ const Home = () => {
           <div className="videoText">
             ESportZ Club of IIT Ropar
           </div>
+          <div className="brochureBtn">
+            <a class="event-link" href="https://drive.google.com/file/d/1hOTBG1hS-CbJvMUzasBu3G8dwwpEOWsL/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+              Brochure
+            </a>
+          </div>
         </div>
       </div>
       <br></br>

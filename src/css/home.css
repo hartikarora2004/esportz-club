@@ -16,9 +16,8 @@
 }
 
 .videoOverlay {
-    text-shadow: 1px 1px 8px rgba(0, 0, 0, .6);
     position: relative;
-    bottom: 135px;
+    bottom: 180px;
     right: 480px;
 }
 
@@ -32,6 +31,29 @@
     font-size: 2.6rem;
     color: white;
     font-weight: 600;
+}
+
+.brochureBtn{
+    width: 20%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.brochureBtn a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: cyan;
+}
+
+.brochureBtn a:hover {
+    background-color: white;
+    color: #000;
 }
 
 .firstBox {
