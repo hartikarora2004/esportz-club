@@ -84,6 +84,11 @@ const Sponsors = () => {
           </div>
           <br></br>
           <br></br>
+          <div className="brochure">
+            <a class="event-link" href="https://drive.google.com/file/d/1hOTBG1hS-CbJvMUzasBu3G8dwwpEOWsL/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+              Download Brochure
+            </a>
+          </div>
           <div className="sponsorsText">
             Ignite excitement and connect with budding gamers and tech aficionados. As a sponsor, your brand will shine across our dynamic events, social media, and campus buzz. Elevate your market reach and network with future industry leaders. Choose from Platinum, Gold, Silver, or Bronze tiers, or customize a package to suit your goals. Join us in nurturing talent, teamwork, and innovation.
           </div>

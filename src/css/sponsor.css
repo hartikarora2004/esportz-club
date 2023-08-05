@@ -100,3 +100,23 @@
     font-style: oblique;
     font-weight: bold;
 }
+
+.brochure{
+    width: 11%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.brochure a {
+    color: white;
+    border: 1px solid cyan;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.brochure a:hover {
+    background-color: aqua;
+    color: #000;
+}

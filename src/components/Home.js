@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import '../css/team.css';
 import '../css/home.css';
-import video from '../video/home.mp4';
+import video from '../videos/home.mp4';
 
 const Home = () => {
   return (
