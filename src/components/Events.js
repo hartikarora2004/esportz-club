@@ -6,6 +6,8 @@ import BGMI from '../images/events/bgmi.jpeg';
 import valo from '../images/events/valo.jpeg';
 import VR from '../images/events/VR.jpeg';
 import CODM from '../images/events/CODM.jpeg';
+import Valentine from '../images/events/valentine.jpg';
+import Tekken from '../images/events/tekken.jpg';
 
 const Events = () => {
   return (
@@ -78,6 +80,34 @@ const Events = () => {
                 ESportZ Club buzzed with excitement as it hosted the captivating CODM tournament during Zeitgeist 2023. Over two intense days, more than 30 teams from diverse colleges nationwide fiercely competed for supremacy. Among the formidable 8 teams—THE GODLEVEL, Reapers, Men From Hell, MAVIS 350, OGS, The_Frozen_Ones, HELLSGATE, and Imagine Losing—four advanced to the semi-finals. In a thrilling final clash, The_Frozen_Ones secured the championship in a tight team death match against Imagine Losing, who clinched a well-deserved 2nd place. MAVIS 350 demonstrated their prowess, seizing 3rd by triumphing over Reapers. ESportZ Club commends participants for their sportsmanship and passion, promising more electrifying events that fuel the spirit of esports.
                 <a class="event-link" href="https://drive.google.com/file/d/1uJO1I5BsHzPmsNIFSKiZI-iFgAN8dIF-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Rulebook
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="event-card-inside">
+              <img class="event-image" src={Tekken} alt="CODM Fest" />
+              <span class="event-heading">
+                Tekken 7
+              </span>
+              <p class="event-description">
+                ESportZ Club presented the captivating Tekken 7 Showdown on Feb 17, 2023, as part of the Among Us series. Diverse skilled fighters clashed virtually, displaying combat techniques and strategic prowess. Amid intense competition, Sidhant emerged as champion, showcasing remarkable determination. Sidharth secured 2nd, Anshul took 3rd, highlighting gaming prowess. The event witnessed exceptional talent, promising more from ESportZ Club. Cheers to victors and participants for their dedication. Anticipate more thrilling gaming events, embracing competition and camaraderie!
+                <a class="event-link" href="/events">
+                  View More
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="event-card-inside">
+              <img class="event-image" src={Valentine} alt="CODM Fest" />
+              <span class="event-heading">
+                Valentine's Duo
+              </span>
+              <p class="event-description">
+                ESportZ Club's Valentine's Duo Event, part of Among Us 2023 series, infused virtual air with love. The event showcased Valorant and BGMI Duo competitions, uniting gaming pairs for thrilling adventures. In Valorant, IRON BUDDYS clinched champion title with remarkable teamwork. BREAKFAST SKIPPERS secured 2nd, THE DYNAMIC DUO 3rd. BGMI saw RYTNIX in 1st, JOKER 2nd, and COMMUNIST ARMY 3rd. ESportZ Club congratulates winners and participants for their dedication. The heartwarming celebration spread joy in the gaming community. Await more excitement from ESportZ Club's future events, where competition and camaraderie flourish!
+                <a class="event-link" href="https://drive.google.com/drive/folders/1aPTzmplP2w7Z59g4OFhO3is8wIkLsUmQ?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  Rulebooks
                 </a>
               </p>
             </div>

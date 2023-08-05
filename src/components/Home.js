@@ -3,30 +3,35 @@ import Footer from './Footer';
 import '../css/team.css';
 import '../css/home.css';
 import video from '../videos/home.mp4';
+import about from '../images/about.jpg';
+import join from '../images/join.jpg';
 
 const Home = () => {
   return (
     <div>
       <div className="videoBgContainer">
-        <video autoPlay loop playsInline>
+        <video autoPlay loop playsInline muted>
           <source
             src={video}
             type="video/mp4"
           />
           Your browser does not support the video tag.
         </video>
+        <div className="videoOverlay">
+          <div className="videoHeading">
+            WELCOME TO THE INDIA'S FIRST
+          </div>
+          <div className="videoText">
+            ESportZ Club of IIT Ropar
+          </div>
+        </div>
       </div>
       <br></br>
       <br></br>
       <br></br>
       <div className="firstBox">
-        <div className="firstLeft">
-          <div className="firstLeftBigText">
-            India's First
-          </div>
-          <div className="firstLeftSmallText">
-            eSports Club of an IIT
-          </div>
+        <div className="firstLeft animateLeftToRight">
+          <img src={about} alt="about us" />
         </div>
         <div className="firstRight">
           <div className="firstRightBigText">
@@ -37,6 +42,28 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="secondBox">
+        <div className="secondLeft">
+          <div className="secondLeftBigText">
+            Join the Club
+          </div>
+          <div className="secondLeftSmallText">
+            The ESportZ Club at IIT Ropar is a vibrant community uniting individuals passionate about gaming. Members engage in various gaming activities, fostering a collaborative and competitive environment. Through events, tournaments, and casual gaming sessions, the club provides a platform for gamers to connect, improve their skills, and share their enthusiasm for esports. It's a space where like-minded individuals come together to celebrate gaming culture, learn from one another, and build lasting friendships.
+          </div>
+        </div>
+        <div className="secondRight animateRightToLeft">
+          <img src={join} alt="about us" />
+        </div>
+      </div>
+      {
+        <div className="div1 d-none d-md-block">
+          <div className="divrect">
+          </div>
+          <div className="recttext">
+            Home
+          </div>
+        </div>
+      }
       <Footer />
     </div>
   );

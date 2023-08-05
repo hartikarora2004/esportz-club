@@ -1,10 +1,11 @@
-.videoBgContainer{
+.videoBgContainer {
     width: auto;
-    height: auto;
+    height: 500px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: left;
+    flex-direction: column;
 }
 
 .videoBgContainer video {
@@ -14,40 +15,117 @@
     border: none;
 }
 
-.firstBox{
+.videoOverlay {
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, .6);
+    position: relative;
+    bottom: 135px;
+    right: 480px;
+}
+
+.videoHeading {
+    font-size: 2rem;
+    color: cyan;
+    font-weight: 600;
+}
+
+.videoText {
+    font-size: 2.6rem;
+    color: white;
+    font-weight: 600;
+}
+
+.firstBox {
     display: flex;
     width: 90%;
     margin: 0 auto;
     color: white;
     margin-top: 40px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-.firstLeft{
-    width: 55%;
+.firstLeft {
+    width: 30%;
 }
 
-.firstLeftBigText{
-    font-size: 4rem;
-    color: cyan;
-    font-weight: 600;
-    margin-bottom: 10px;
+.firstLeft img {
+    width: 50%;
+    margin-left: 120px;
 }
 
-.firstLeftSmallText{
-    font-size: 2.2rem;
+.animateLeftToRight {
+    animation: slideFromLeft 2s ease-in-out forwards;
+    transform: translateX(-100%);
 }
 
-.firstRight{
-    width: 45%;
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
-.firstRightBigText{
+.firstRight {
+    width: 50%;
+}
+
+.firstRightBigText {
     text-align: center;
     font-size: 2rem;
     color: cyan;
 }
 
-.firstRightSmallText{
+.firstRightSmallText {
+    text-align: justify;
+}
+
+.secondBox {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.secondRight {
+    width: 30%;
+}
+
+.secondRight img {
+    width: 65%;
+    margin-left: 50px;
+}
+
+.animateRightToLeft {
+    animation: slideFromRight 2s ease-in-out forwards;
+    transform: translateX(100%);
+}
+
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.secondLeft {
+    width: 50%;
+}
+
+.secondLeftBigText {
+    text-align: center;
+    font-size: 2rem;
+    color: cyan;
+}
+
+.secondLeftSmallText {
     text-align: justify;
 }
