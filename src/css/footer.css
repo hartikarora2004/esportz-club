@@ -1,19 +1,19 @@
 .footer{
-    width: 100%;
     margin-top: 100px;
-    height: 231px;
+    display: flex;
+    background-color: black;
 }
 
 .footer img{
-    width: 100%;
+    width: 30%;
 }
 
 .footerContent{
-    justify-content: end;
-    position: relative;
-    bottom: 140px;
+    justify-content: space-evenly;
     color: white;
     display: flex;
+    width: 70%;
+    margin-top: 80px;
 }
 
 .leftContent{

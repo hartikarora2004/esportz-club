@@ -1,7 +1,6 @@
 .allEvents{
-    height: 80vh;
+    margin-top: 80px;
     overflow: hidden;
-    margin-top: 3px;
 }
 
 .allEvents > * {
