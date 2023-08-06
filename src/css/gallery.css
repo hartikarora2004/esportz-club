@@ -50,3 +50,20 @@
     cursor: pointer;
     height: 200px;
 }
+
+@media (max-width: 500px) {
+    .image-cards{
+        height: 102px;
+        width: 104px;
+        min-width: 102px;
+    }
+
+    .image-card{
+        height: 100px;
+    }
+
+    .all-images img{
+        width: 100px;
+        height: 100px;
+    }
+}

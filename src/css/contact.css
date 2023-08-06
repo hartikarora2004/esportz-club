@@ -113,11 +113,14 @@ label {
         background-repeat: repeat;
         gap: 0px;
     }
+    .formdiv{
+        width: 70%;
+    }
     .forminput {
-        width: 300px;
+        width: 100%;
     }
     .forminputmsg {
-        width: 300px;
+        width: 100%;
     }
     .contacts {
         flex-wrap: wrap;

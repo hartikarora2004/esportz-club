@@ -53,7 +53,6 @@
 }
 
 .our-team .team-inner-box {
-    width: 80%;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background: radial-gradient(circle at 50% 0, hsla(0, 0%, 100%, .1) 50%, rgba(0, 0, 0, .757));
@@ -63,7 +62,6 @@
     margin: 50px auto auto;
     padding: 0 0.6rem 0.6rem;
     text-align: center;
-    width: 240px;
 }
 
 .our-team .team-inner-box img {
@@ -72,7 +70,7 @@
     border-radius: 50%;
     margin-bottom: 1px;
     margin-top: -50px;
-    max-width: 150px;
+    max-width: 80%;
     width: 80%;
 }
 
@@ -105,7 +103,7 @@
 
 .our-team .image-container img {
     width: 100%;
-    height: 160px;
+    height: 100%;
     transition: filter 0.3s;
 }
 
@@ -136,4 +134,22 @@
 
 .our-team .social-links-overlay a:hover {
     color: #ff9900;
+}
+
+@media (max-width: 500px) {
+    .our-team{
+        width: 100%;
+    }
+
+    .our-team .team-outerbox{
+        width: 40%;
+    }
+
+    .our-team .social-links-overlay{
+        width: 50%;
+    }
+
+    .divrect{
+        width: 90px;
+    }
 }
