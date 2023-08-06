@@ -53,11 +53,6 @@ const Header = () => {
                         <span class="line line2"></span>
                         <span class="line line3"></span>
                     </div>
-                    <div className="hamburger-text">
-                        <div className="hamburger-inside">
-                            ESportZ Club
-                        </div>
-                    </div>
                     <div class="hamburger-logo">
                         <img src={logoImage} alt="Logo" />
                     </div>

@@ -45,7 +45,7 @@ const Footer = () => {
                   Founded by:
                 </div>
                 <a href="https://www.linkedin.com/in/vaibhav-singhal-iit-ropar" target="_blank" rel="noopener noreferrer">
-                  Shaukeen Vaibhav Singhal
+                  Vaibhav Singhal
                 </a>
               </div>
               <div className="leftThird">

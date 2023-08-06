@@ -1,6 +1,6 @@
-/* header{
+header {
     z-index: 999;
-} */
+}
 
 nav {
     display: flex;
@@ -54,9 +54,9 @@ nav {
 }
 
 .contactHome {
-    position: fixed;
-    top: 29px;
-    right: 33px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
 }
 
 .fa-image {
@@ -78,6 +78,8 @@ nav {
         backdrop-filter: blur(10px);
         height: 60px;
         width: 100%;
+        z-index: 1000;
+        position: relative;
     }
 
     .nav-container {
@@ -96,20 +98,10 @@ nav {
         cursor: pointer;
     }
 
-    .hamburger-text {
-        width: 70%;
-        margin-left: 56px;
-    }
-
-    .hamburger-inside {
-        width: fit-content;
-        margin: 0 auto;
-        height: 60px;
+    .hamburger-logo {
+        width: 100%;
         display: flex;
-        align-items: center;
-        color: white;
-        font-size: 1.5rem;
-        font-weight: 600;
+        justify-content: center;
     }
 
     .hamburger-logo img {
@@ -165,15 +157,15 @@ nav {
         transform: translateX(-100%);
     }
 
-    .menu-items .hamburger-nav-image{
+    .menu-items .hamburger-nav-image {
         width: 100%;
     }
 
-    .menu-items .hamburger-nav-image img{
+    .menu-items .hamburger-nav-image img {
         width: 50%;
     }
 
-    .hamburger-nav-links{
+    .hamburger-nav-links {
         margin-bottom: 10px;
     }
 
@@ -183,7 +175,7 @@ nav {
         font-weight: 500;
     }
 
-    .menu-items svg{
+    .menu-items svg {
         margin-right: 5px;
     }
 
