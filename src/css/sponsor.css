@@ -102,10 +102,10 @@
 }
 
 .brochure{
-    width: 11%;
+    width: fit-content;
     margin: 0 auto;
     margin-bottom: 25px;
-    text-align: center;
+    display: flex;
 }
 
 .brochure a {
@@ -114,9 +114,16 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .brochure a:hover {
     background-color: aqua;
     color: #000;
+}
+
+@media (max-width:500px) {
+    .sponsorsText{
+        font-size: 0.8rem;
+    }
 }
