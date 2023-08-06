@@ -3,7 +3,6 @@
     height: 500px;
     overflow: hidden;
     display: flex;
-    align-items: center;
     justify-content: left;
     flex-direction: column;
 }
@@ -17,8 +16,8 @@
 
 .videoOverlay {
     position: relative;
-    bottom: 180px;
-    right: 480px;
+    bottom: 200px;
+    margin-left: 30px;
 }
 
 .videoHeading {
@@ -33,8 +32,8 @@
     font-weight: 600;
 }
 
-.brochureBtn{
-    width: 20%;
+.brochureBtn {
+    width: fit-content;
     text-align: center;
     margin-top: 20px;
 }
@@ -150,4 +149,71 @@
 
 .secondLeftSmallText {
     text-align: justify;
+}
+
+.homePhone {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .videoOverlay {
+        margin-left: 12px;
+        bottom: 150px;
+    }
+
+    .videoHeading {
+        font-size: 1.2rem;
+    }
+
+    .videoText {
+        font-size: 1.6rem;
+    }
+
+    .brochureBtn {
+        margin-top: 0;
+    }
+
+    .firstBox {
+        display: block;
+        margin-top: -120px;
+    }
+
+    .firstBox .firstRight {
+        width: 100%;
+    }
+
+    .homePhone {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .homePhone img {
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .secondBox{
+        display: block;
+        margin-top: 60px;
+    }
+
+    .secondLeft{
+        width: 100%;
+    }
+
+    .secondRight{
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .secondRight img{
+        margin-left: 0;
+    }
 }

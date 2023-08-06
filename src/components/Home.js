@@ -35,7 +35,7 @@ const Home = () => {
       <br></br>
       <br></br>
       <div className="firstBox">
-        <div className="firstLeft animateLeftToRight">
+        <div className="firstLeft animateLeftToRight pc">
           <img src={about} alt="about us" />
         </div>
         <div className="firstRight">
@@ -45,6 +45,9 @@ const Home = () => {
           <div className="firstRightSmallText">
             ESportZ Club, the epicenter of gaming at IIT Ropar, unites gamers with a shared purpose. Our mission: to blend competitive gaming and camaraderie. From inter-college tournaments to casual sessions, skill enhancement workshops, and diverse community events, we cater to all skill levels. Inclusivity reigns supreme, making space for every background. Through meet-ups, socials, and content creation, we fuel the gaming fervor. Dive into esports, connect on Discord, and let's shape the future of gaming together!
           </div>
+        </div>
+        <div className="firstLeft animateLeftToRight homePhone">
+          <img src={about} alt="about us" />
         </div>
       </div>
       <div className="secondBox">

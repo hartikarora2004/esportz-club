@@ -83,8 +83,6 @@
     text-align: center;
     position: relative;
     font-size: 50px;
-    overflow-y: auto;
-    margin-bottom: 20px;
 }
 
 .events p {
@@ -93,6 +91,9 @@
     overflow: hidden;
     transition: max-height 1s;
     font-size: 12px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 .event-description {
